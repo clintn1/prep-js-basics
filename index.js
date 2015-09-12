@@ -57,26 +57,26 @@ var west_coast = ['California', 'Oregon', 'Washington'];
 * declare a variable named `even numbers` which is an Array. This Array contains numbers that
 * are considered 'even values'. Have at least ten even values in this array
 **/
-var evenNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+var evenNumbers = [2, 4, 6, 8, 10, 12, 14, 16, 18, 20];
 
 
 /**
 * #6a Arithmetic
 */
-var x = 12 * 3;
-var y = 55 + 7;
-var z = 22 / 2;
+var sum = 2 + 5;
+var product = 10 * 2;
 /**
 * #6b Comparisons & Logic
 */
-
+5 > 4 && 6 > 2;
 
 
 /**
 * #6c Assignments
 */
-
-
+10 == 10;
+5 === 5;
+var result = "Bacon" + "Pancakes";
 
 /**
 * #7a
@@ -89,8 +89,10 @@ var z = 22 / 2;
 *
 * store the return value to a variable and use console.log to inspect the value which was passed back by your function
 **/
-
-
+var jump = function(height) {
+	console.log("You Jumped "+height+" feet high!");
+}
+jump(9);
 
 /**
 * #7b
@@ -101,6 +103,10 @@ var z = 22 / 2;
 * this function should return a String along the lines of, "Tomatoes and Cheese make a Pizza!"
 * if invoked in this way -> cook("Tomatoes", "Cheese", "Pizza");
 **/
+function cook (ingredient1, ingredient2, recipeName) {
+	return ingredient1 + "and" + ingredient2 +  "make a" + recipeName + "!";
+}
+cook("Tomatoes", "Cheese", "Pizza")
 
 
 
