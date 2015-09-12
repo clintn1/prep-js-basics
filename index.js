@@ -104,7 +104,7 @@ jump(9);
 * if invoked in this way -> cook("Tomatoes", "Cheese", "Pizza");
 **/
 function cook (ingredient1, ingredient2, recipeName) {
-	return ingredient1 + "and" + ingredient2 +  "make a" + recipeName + "!";
+	return ingredient1 + " and " + ingredient2 +  " make a " + recipeName + "!";
 }
 cook("Tomatoes", "Cheese", "Pizza")
 
