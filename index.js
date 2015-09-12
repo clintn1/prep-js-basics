@@ -7,9 +7,9 @@
 * declare variables named `first_name`, `last_name`, and `birth_place`.
 * Fill out the values for these with your own data or make it up. It should contain a String
 **/
-
-
-
+var first_name = 'Clint';
+var last_name = 'Nazareno';
+var birth_place = 'Honolulu';
 /**
 * #2
 * Variables with a Number as their value
@@ -17,9 +17,9 @@
 * declare variables named `favorite_number`, `current_year`, and `that_one_prince_song`.
 * Their values should be a Number
 **/
-
-
-
+var favorite_number = '7';
+var current_year = '2015';
+var that_one_prince_song = '21';
 /**
 * #3
 * Variables with Boolean values
@@ -27,9 +27,10 @@
 * declare variables named `isDaytime`, `isLeftHanded`, `inHawaii`, and `isHappyCoding`
 * Their values should be a Boolean
 **/
-
-
-
+var isDaytime = false;
+var isLeftHanded = false;
+var inHawaii = true;
+var isHappyCoding = true;
 /**
 * #4
 * Variables with null
@@ -37,8 +38,8 @@
 * declare variables named `enrolledAtDevLeague` and `completedFridayPrep`
 * Their values should be a Null value
 **/
-
-
+var enrolledAtDevLeague = null;
+var completedFridayPrep = null;
 /**
 * #5a
 * Variables with an Array for it's value. This Array will contain:
@@ -46,7 +47,7 @@
 * declare a variable named `west_coast` which is an Array. This Array contains the names of all the states
 * which can be found along the west coast of The United States.
 **/
-
+var west_coast = ['California', 'Oregon', 'Washington']
 
 
 /**
